@@ -39,7 +39,7 @@ Wichtig: WSL2 und VirtualBox funktionieren NICHT zusammen.
 - Helm CLI
   - Binaries selber downloaden, extracten und kopieren:
     - **Linux:** https://github.com/helm/helm/releases/tag/v3.9.0 (Abschnitt: Installation and Upgrading)
-    - Binary in das Verzeichnis '/usr/local/bin/' kopieren/verschieben
+    - Binary in das Verzeichnis '/usr/local/bin/' kopieren/verschieben && ausführbar machen (chmod +x)
     - **Windows:** https://github.com/helm/helm => In der README.md unter 'Install'
 
 - Chart Tester CLI
